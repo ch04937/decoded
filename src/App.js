@@ -1,19 +1,19 @@
 import React from 'react';
 import './App.css';
 
+import Header from './components/MainPage/Header'
 import Footer from './components/Footer'
 
 function App() {
   return (
     <>
-      <header>
-        <h1>Decoded</h1>
-      </header>
-      <body>
-        <p>this will have information</p>
+    <div className="App-container">      
+    <div className='App'>
+        <Header />
         <Footer />
-      </body>
-      
+      </div>
+    </div>
+
     </>
   );
 }
