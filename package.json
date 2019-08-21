@@ -8,6 +8,7 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
+    "start": "react-scripts start",
     "dev": "react-scripts start --port $PORT",
     "build": "react-scripts build",
     "test": "react-scripts test",
